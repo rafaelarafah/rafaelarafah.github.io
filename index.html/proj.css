@@ -1,0 +1,70 @@
+img.icones {
+    min-width: 50px;
+    max-width: 50px;
+    min-height: 50px;
+    max-height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+img.foto {
+  min-width: 200px;
+  max-width: 200px;
+  min-height: 200px;
+  max-height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 200px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: tomato;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: black;
+  }
+
+  h6 {
+    text-align: center;
+  }
+
+  h1 {
+      text-align: center;
+  }
+
+  div.contoiner {
+    border: 3px solid;
+    margin: 6px 12px;
+  }
+
+p {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+div {
+  border-radius: 5px;
+}
