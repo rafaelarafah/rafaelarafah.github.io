@@ -1,12 +1,12 @@
 img.icones {
-    min-width: 50px;
-    max-width: 50px;
-    min-height: 50px;
-    max-height: 50px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+  min-width: 50px;
+  max-width: 50px;
+  min-height: 50px;
+  max-height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 
 img.foto {
@@ -21,50 +21,79 @@ img.foto {
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: tomato;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
   
-  li {
-    float: left;
-  }
+li {
+  float: left;
+}
   
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: black;
-  }
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-  h6 {
-    text-align: center;
-  }
+h6 {
+  text-align: center;
+}
 
-  h1 {
-      text-align: center;
-  }
+h1 {
+  text-align: center;
+}
 
-  div.contoiner {
-    border: 3px solid;
-    margin: 6px 12px;
-  }
 
 p {
   text-align: center;
 }
 
-h4 {
+h2 {
   text-align: center;
 }
 
 div {
   border-radius: 5px;
 }
+
+a {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+p {
+  color: white;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+  
+.hero-image {
+  background-image: url("https://eustaquio.com.br/wp-content/uploads/2018/04/post-3-girassol-1180x714.jpg");
+  height: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  border-radius: 0;
+}
+  
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+ 
